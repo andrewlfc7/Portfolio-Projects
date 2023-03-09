@@ -1,0 +1,111 @@
+
+import pandas as pd
+import sqlite3
+import requests
+from bs4 import BeautifulSoup as soup
+import json
+import numpy as np
+import matplotlib.pyplot as plt
+
+import matplotlib.pyplot as plt
+import matplotlib.font_manager as fm
+from matplotlib import rcParams
+from highlight_text import fig_text
+import pandas as pd
+
+from PIL import Image
+import urllib
+import os
+
+#import packages
+import pandas as pd
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+
+
+
+
+
+def plot_match_xgflow(ax, match_id:int):
+    response = requests.get(
+        f'https://www.fotmob.com/api/matchDetails?matchId={match_id}&ccode3=USA&timezone=America%2FChicago&refresh=true&includeBuzzTab=false&acceptLanguage=en-US')
+
+    data = json.loads(response.content)
+    data
+
+    team_logos = data['header']['teams']
+    team_logos = pd.DataFrame(team_logos)
+    team_logos
+
+    homeTeam = data['general']['homeTeam']
+    awayTeam = data['general']['awayTeam']
+    #homeTeam = pd.DataFrame(homeTeam,index=[0])
+    #awayTeam = pd.DataFrame(awayTeam,index=[0])
+
+
+    shot_data = data['content']['shotmap']['shots']
+    df_shot = pd.DataFrame(shot_data)
+    df_shot['min'] = df_shot['min'].astype(int)
+    df_shot['xG'] = df_shot['expectedGoals'].astype(float)
+    xg_flow = df_shot[['teamId', 'situation', 'eventType', 'expectedGoals', 'playerName', 'min', 'teamColor', 'isOwnGoal']]
+    xg_flow
+    team_dict_name = {homeTeam['id']: homeTeam['name'], awayTeam['id']: awayTeam['name']}
+    xg_flow['teamName'] = xg_flow['teamId'].map(team_dict_name)
+    xg_flow
+    # Create a dictionary mapping team IDs to team names
+    team_dict = {homeTeam['id']: 'Home', awayTeam['id']: 'Away'}
+
+    xg_flow['Venue'] = xg_flow['teamId'].map(team_dict)
+    xg_flow
+    h_data = xg_flow[xg_flow['Venue'] == 'Home']
+    h_data
+    a_data = xg_flow[xg_flow['Venue'] == 'Away']
+
+    home_color = h_data.teamColor.iloc[0]
+    away_color = a_data.teamColor.iloc[0]
+
+
+    def nums_cumulative_sum(nums_list):
+        return [sum(nums_list[:i + 1]) for i in range(len(nums_list))]
+
+
+    a_cumulative = nums_cumulative_sum(a_data['expectedGoals'])
+    h_cumulative = nums_cumulative_sum(h_data['expectedGoals'])
+
+
+    h_cumulative = np.cumsum(h_data['expectedGoals']) - h_data['expectedGoals'][0]
+    a_cumulative = np.cumsum(a_data['expectedGoals']) - a_data['expectedGoals']
+
+
+    #this is used to find the total xG. It just creates a new variable from the last item in the cumulative list
+    #alast = round(a_cumulative[-1], 2)
+    #hlast = round(h_cumulative[-1], 2)
+
+    h_data['cum_xg']= h_cumulative
+    a_data['cum_xg'] = a_cumulative
+
+
+    ytick = max(h_data.iloc[-1]['cum_xg'], a_data.iloc[-1]['cum_xg'])
+    if ytick > 3:
+        space = 0.5
+    else:
+        space = 0.25
+    ax.step(x=0 + h_data['min'], y= h_cumulative, color=home_color, linestyle='dashdot', label=homeTeam['name'])
+    ax.step(x=0 + a_data['min'], y=a_cumulative, color=away_color, linestyle='solid', label=awayTeam['name'])
+
+    plt.xticks([], [])
+    plt.yticks([], [])
+
+
+
+
+    #plt.xticks([0,15,30,45,60,75,90])
+    #plt.yticks(np.arange(0, ytick, space))
+    plt.axvline(45, c='red')
+    #plt.xlabel('Minutes')
+    #plt.ylabel('Cumulative Expected Goals')
+    #plt.legend()
+    #plt.xlabel('Minute',fontsize=16)
+    #plt.ylabel('xG',fontsize=16)
+
+    return ax
