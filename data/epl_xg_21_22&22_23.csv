@@ -1,0 +1,554 @@
+date,home_team_name,home_team_xG,away_team_xG,away_team_name
+8/13/21,Brentford,1.6,1.6,Arsenal
+8/14/21,Manchester Utd,2.5,0.6,Leeds United
+8/14/21,Leicester City,0.7,1.5,Wolves
+8/14/21,Burnley,1.4,1.4,Brighton
+8/14/21,Chelsea,0.8,0.4,Crystal Palace
+8/14/21,Watford,1.3,1.3,Aston Villa
+8/14/21,Everton,2.3,0.9,Southampton
+8/14/21,Norwich City,1.4,1.7,Liverpool
+8/15/21,Newcastle Utd,2.1,2.6,West Ham
+8/15/21,Tottenham,1,2,Manchester City
+8/21/21,Liverpool,2.8,1,Burnley
+8/21/21,Aston Villa,1.3,0.9,Newcastle Utd
+8/21/21,Manchester City,2.7,0.1,Norwich City
+8/21/21,Leeds United,1.4,2,Everton
+8/21/21,Crystal Palace,0.8,1,Brentford
+8/21/21,Brighton,1.3,1,Watford
+8/22/21,Wolves,1.7,1.7,Tottenham
+8/22/21,Southampton,0.7,1.8,Manchester Utd
+8/22/21,Arsenal,0.3,3,Chelsea
+8/23/21,West Ham,2.8,0.6,Leicester City
+8/28/21,Manchester City,4,0.2,Arsenal
+8/28/21,Norwich City,1.6,1.3,Leicester City
+8/28/21,West Ham,1.9,1.1,Crystal Palace
+8/28/21,Aston Villa,0.8,1,Brentford
+8/28/21,Newcastle Utd,1.1,3.7,Southampton
+8/28/21,Brighton,1,1.7,Everton
+8/28/21,Liverpool,2.4,0.7,Chelsea
+8/29/21,Burnley,1.1,1.6,Leeds United
+8/29/21,Tottenham,1.3,1.1,Watford
+8/29/21,Wolves,2.5,0.7,Manchester Utd
+9/11/21,Crystal Palace,2.6,0.1,Tottenham
+9/11/21,Watford,0.3,2.1,Wolves
+9/11/21,Brentford,0.4,0.3,Brighton
+9/11/21,Arsenal,3.2,0.8,Norwich City
+9/11/21,Manchester Utd,2.6,0.7,Newcastle Utd
+9/11/21,Leicester City,0.6,3.3,Manchester City
+9/11/21,Southampton,0.8,0.9,West Ham
+9/11/21,Chelsea,1,1.3,Aston Villa
+9/12/21,Leeds United,1.1,4.4,Liverpool
+9/13/21,Everton,1.4,1.3,Burnley
+9/17/21,Newcastle Utd,1.6,1.8,Leeds United
+9/18/21,Wolves,0.7,2.5,Brentford
+9/18/21,Manchester City,1.2,0.5,Southampton
+9/18/21,Liverpool,3.3,1,Crystal Palace
+9/18/21,Norwich City,1.1,2,Watford
+9/18/21,Burnley,1.3,1,Arsenal
+9/18/21,Aston Villa,1,1,Everton
+9/19/21,West Ham,1.7,2,Manchester Utd
+9/19/21,Brighton,1.7,1.5,Leicester City
+9/19/21,Tottenham,0.6,2.7,Chelsea
+9/25/21,Manchester Utd,2.5,1.2,Aston Villa
+9/25/21,Chelsea,0.2,1.4,Manchester City
+9/25/21,Leicester City,2.6,0.5,Burnley
+9/25/21,Leeds United,1.3,2.2,West Ham
+9/25/21,Watford,1.1,2.4,Newcastle Utd
+9/25/21,Everton,2,0.7,Norwich City
+9/25/21,Brentford,2.2,2.6,Liverpool
+9/26/21,Southampton,1.3,0.6,Wolves
+9/26/21,Arsenal,1.1,1,Tottenham
+9/27/21,Crystal Palace,1.4,0.8,Brighton
+10/2/21,Manchester Utd,1.1,1.4,Everton
+10/2/21,Wolves,1.1,0.7,Newcastle Utd
+10/2/21,Burnley,1.2,0.5,Norwich City
+10/2/21,Chelsea,3.4,1.3,Southampton
+10/2/21,Leeds United,2.1,0.2,Watford
+10/2/21,Brighton,1.6,0.6,Arsenal
+10/3/21,Tottenham,1.4,1.1,Aston Villa
+10/3/21,Crystal Palace,1.8,1.4,Leicester City
+10/3/21,West Ham,1.7,1.3,Brentford
+10/3/21,Liverpool,0.8,1.7,Manchester City
+10/16/21,Watford,0.5,3.6,Liverpool
+10/16/21,Leicester City,3.1,1.5,Manchester Utd
+10/16/21,Manchester City,2.2,0.8,Burnley
+10/16/21,Southampton,2.3,0.1,Leeds United
+10/16/21,Aston Villa,1.2,1.9,Wolves
+10/16/21,Norwich City,1.6,1,Brighton
+10/16/21,Brentford,1.5,0.4,Chelsea
+10/17/21,Everton,1.1,1.4,West Ham
+10/17/21,Newcastle Utd,0.4,1.9,Tottenham
+10/18/21,Arsenal,1.9,0.9,Crystal Palace
+10/22/21,Arsenal,3.1,1.4,Aston Villa
+10/23/21,Chelsea,3,0.2,Norwich City
+10/23/21,Leeds United,1.9,1,Wolves
+10/23/21,Crystal Palace,1.8,0.5,Newcastle Utd
+10/23/21,Everton,1.5,3.3,Watford
+10/23/21,Southampton,1.9,0.8,Burnley
+10/23/21,Brighton,1.4,4,Manchester City
+10/24/21,West Ham,1.3,0.9,Tottenham
+10/24/21,Brentford,1.4,1.5,Leicester City
+10/24/21,Manchester Utd,1.7,3.2,Liverpool
+10/30/21,Leicester City,1.4,0.9,Arsenal
+10/30/21,Newcastle Utd,0.4,2.4,Chelsea
+10/30/21,Liverpool,1.5,1.1,Brighton
+10/30/21,Burnley,2.5,0.9,Brentford
+10/30/21,Watford,1,2.1,Southampton
+10/30/21,Manchester City,1.1,0.8,Crystal Palace
+10/30/21,Tottenham,0.9,1.1,Manchester Utd
+10/31/21,Norwich City,0.9,1.2,Leeds United
+10/31/21,Aston Villa,0.8,2.7,West Ham
+11/1/21,Wolves,1.6,1.6,Everton
+11/5/21,Southampton,0.8,0.9,Aston Villa
+11/6/21,Manchester Utd,0.8,2.3,Manchester City
+11/6/21,Brentford,2.6,1.3,Norwich City
+11/6/21,Chelsea,2.3,0.6,Burnley
+11/6/21,Crystal Palace,2.2,0.4,Wolves
+11/6/21,Brighton,2,0.4,Newcastle Utd
+11/7/21,Everton,0.8,1.1,Tottenham
+11/7/21,Leeds United,1.6,0.9,Leicester City
+11/7/21,Arsenal,1.9,0.9,Watford
+11/7/21,West Ham,0.9,1.5,Liverpool
+11/20/21,Leicester City,0.3,2.1,Chelsea
+11/20/21,Wolves,1.1,0.6,West Ham
+11/20/21,Watford,3.2,1.7,Manchester Utd
+11/20/21,Norwich City,0.5,1.3,Southampton
+11/20/21,Aston Villa,0.8,0.5,Brighton
+11/20/21,Newcastle Utd,1.9,0.9,Brentford
+11/20/21,Burnley,1.6,2.3,Crystal Palace
+11/20/21,Liverpool,3.8,0.6,Arsenal
+11/21/21,Manchester City,2.6,0.2,Everton
+11/21/21,Tottenham,1.7,1.7,Leeds United
+11/27/21,Arsenal,2.8,0.4,Newcastle Utd
+11/27/21,Crystal Palace,0.8,0.5,Aston Villa
+11/27/21,Liverpool,3.1,1,Southampton
+11/27/21,Norwich City,1.7,0.3,Wolves
+11/27/21,Brighton,2.5,0.9,Leeds United
+11/28/21,Brentford,1.3,1.3,Everton
+11/28/21,Leicester City,2.2,2.6,Watford
+11/28/21,Manchester City,2.4,0.2,West Ham
+11/28/21,Chelsea,3.1,0.7,Manchester Utd
+11/30/21,Newcastle Utd,1.2,1.3,Norwich City
+11/30/21,Leeds United,1.6,1.3,Crystal Palace
+12/1/21,Southampton,1.7,2,Leicester City
+12/1/21,West Ham,1.4,1.4,Brighton
+12/1/21,Wolves,0.9,0.2,Burnley
+12/1/21,Watford,1.1,1.2,Chelsea
+12/1/21,Aston Villa,0.9,1.2,Manchester City
+12/1/21,Everton,1.3,2.7,Liverpool
+12/2/21,Tottenham,2.2,0.4,Brentford
+12/2/21,Manchester Utd,1.9,1.7,Arsenal
+12/4/21,West Ham,2.2,1.3,Chelsea
+12/4/21,Newcastle Utd,1.2,0.8,Burnley
+12/4/21,Southampton,1.7,1.4,Brighton
+12/4/21,Wolves,0.1,2.6,Liverpool
+12/4/21,Watford,0.9,3.5,Manchester City
+12/5/21,Leeds United,1.1,1,Brentford
+12/5/21,Tottenham,2.2,1.4,Norwich City
+12/5/21,Manchester Utd,1.1,0.6,Crystal Palace
+12/5/21,Aston Villa,2.3,1.2,Leicester City
+12/6/21,Everton,1.1,1.3,Arsenal
+12/10/21,Brentford,1.7,0.7,Watford
+12/11/21,Manchester City,3.5,0.1,Wolves
+12/11/21,Liverpool,2.6,0.2,Aston Villa
+12/11/21,Arsenal,1.9,0.8,Southampton
+12/11/21,Chelsea,2.6,1.8,Leeds United
+12/11/21,Norwich City,1.3,2.1,Manchester Utd
+12/12/21,Burnley,1,1,West Ham
+12/12/21,Leicester City,2.9,1.3,Newcastle Utd
+12/12/21,Crystal Palace,2.2,1.3,Everton
+12/14/21,Norwich City,0.6,2.2,Aston Villa
+12/14/21,Manchester City,3.2,0.3,Leeds United
+12/15/21,Brighton,1.4,1.2,Wolves
+12/15/21,Crystal Palace,1.2,0.9,Southampton
+12/15/21,Arsenal,3.1,0.4,West Ham
+12/16/21,Chelsea,3,0.5,Everton
+12/16/21,Liverpool,3,0.3,Newcastle Utd
+12/18/21,Leeds United,1.6,3.4,Arsenal
+12/19/21,Wolves,0.3,1,Chelsea
+12/19/21,Newcastle Utd,0.4,2.9,Manchester City
+12/19/21,Tottenham,2.6,1.4,Liverpool
+12/26/21,West Ham,1.9,1.3,Southampton
+12/26/21,Manchester City,3.9,2.4,Leicester City
+12/26/21,Norwich City,0.2,2.7,Arsenal
+12/26/21,Tottenham,2.3,0.2,Crystal Palace
+12/26/21,Aston Villa,0.6,2.7,Chelsea
+12/26/21,Brighton,1.1,1,Brentford
+12/27/21,Newcastle Utd,1.2,1.8,Manchester Utd
+12/28/21,Southampton,0.5,2.5,Tottenham
+12/28/21,Crystal Palace,2.3,1.1,Norwich City
+12/28/21,Watford,1.7,3.5,West Ham
+12/28/21,Leicester City,0.6,2.7,Liverpool
+12/29/21,Chelsea,1.1,1.4,Brighton
+12/29/21,Brentford,0.6,1,Manchester City
+12/30/21,Manchester Utd,2.3,1,Burnley
+1/1/22,Arsenal,0.9,2.2,Manchester City
+1/1/22,Watford,0.3,2.1,Tottenham
+1/1/22,Crystal Palace,2.7,2.3,West Ham
+1/2/22,Leeds United,2,0.9,Burnley
+1/2/22,Brentford,0.8,1.2,Aston Villa
+1/2/22,Everton,1.9,1.7,Brighton
+1/2/22,Chelsea,1.5,1.7,Liverpool
+1/3/22,Manchester Utd,0.9,1.1,Wolves
+1/11/22,Southampton,1.5,0.6,Brentford
+1/12/22,West Ham,2.5,0.5,Norwich City
+1/14/22,Brighton,2.1,0.4,Crystal Palace
+1/15/22,Manchester City,0.9,0.4,Chelsea
+1/15/22,Norwich City,1,0.9,Everton
+1/15/22,Newcastle Utd,1.3,1.3,Watford
+1/15/22,Wolves,2.5,0.8,Southampton
+1/15/22,Aston Villa,1.8,1.3,Manchester Utd
+1/16/22,West Ham,2.5,2.6,Leeds United
+1/16/22,Liverpool,3.2,0.7,Brentford
+1/18/22,Brighton,1,0.8,Chelsea
+1/19/22,Leicester City,1.3,4.1,Tottenham
+1/19/22,Brentford,2.5,2.2,Manchester Utd
+1/21/22,Watford,1.2,0.9,Norwich City
+1/22/22,Everton,1.7,0.7,Aston Villa
+1/22/22,Leeds United,1.3,1,Newcastle Utd
+1/22/22,Manchester Utd,1.9,0.4,West Ham
+1/22/22,Brentford,1.4,0.3,Wolves
+1/22/22,Southampton,0.7,1.9,Manchester City
+1/23/22,Crystal Palace,2.4,1.8,Liverpool
+1/23/22,Arsenal,1.5,0.7,Burnley
+1/23/22,Leicester City,1.7,1.5,Brighton
+1/23/22,Chelsea,1.3,0.7,Tottenham
+2/5/22,Burnley,1,1.2,Watford
+2/8/22,West Ham,0.9,0.4,Watford
+2/8/22,Newcastle Utd,2.4,0.8,Everton
+2/8/22,Burnley,0.5,2.4,Manchester Utd
+2/9/22,Tottenham,1.2,2.3,Southampton
+2/9/22,Norwich City,0.5,1.4,Crystal Palace
+2/9/22,Manchester City,1.8,0.6,Brentford
+2/9/22,Aston Villa,2.1,1.8,Leeds United
+2/10/22,Liverpool,2.2,0.6,Leicester City
+2/10/22,Wolves,0.9,1.9,Arsenal
+2/12/22,Manchester Utd,2.7,1.1,Southampton
+2/12/22,Everton,2.7,0.4,Leeds United
+2/12/22,Brentford,1.6,0.4,Crystal Palace
+2/12/22,Watford,0.6,1.6,Brighton
+2/12/22,Norwich City,0.5,4.9,Manchester City
+2/13/22,Newcastle Utd,0.6,0.8,Aston Villa
+2/13/22,Burnley,1,1.8,Liverpool
+2/13/22,Tottenham,1.8,1.7,Wolves
+2/13/22,Leicester City,1.6,1,West Ham
+2/15/22,Manchester Utd,1.8,0.9,Brighton
+2/19/22,West Ham,0.8,0.9,Newcastle Utd
+2/19/22,Aston Villa,1.7,1.3,Watford
+2/19/22,Arsenal,2.2,0.9,Brentford
+2/19/22,Southampton,2.5,0.3,Everton
+2/19/22,Liverpool,4.4,0.7,Norwich City
+2/19/22,Brighton,0.8,1,Burnley
+2/19/22,Crystal Palace,0.9,1.1,Chelsea
+2/19/22,Manchester City,2.6,1.1,Tottenham
+2/20/22,Leeds United,1.6,2.5,Manchester Utd
+2/20/22,Wolves,1.3,1.7,Leicester City
+2/23/22,Burnley,1.3,1,Tottenham
+2/23/22,Watford,1.2,1.3,Crystal Palace
+2/23/22,Liverpool,5.4,0.2,Leeds United
+2/24/22,Arsenal,3.6,1.3,Wolves
+2/25/22,Southampton,3.2,0.5,Norwich City
+2/26/22,Leeds United,1.9,2.3,Tottenham
+2/26/22,Crystal Palace,1.1,0.3,Burnley
+2/26/22,Manchester Utd,3.2,0.7,Watford
+2/26/22,Brighton,0.9,1,Aston Villa
+2/26/22,Brentford,0.5,3.1,Newcastle Utd
+2/26/22,Everton,0.5,1.9,Manchester City
+2/27/22,West Ham,1.8,0.9,Wolves
+3/1/22,Burnley,1.1,1.8,Leicester City
+3/5/22,Leicester City,0.5,2,Leeds United
+3/5/22,Newcastle Utd,1.7,1.7,Brighton
+3/5/22,Aston Villa,2.5,1.1,Southampton
+3/5/22,Burnley,0.9,2.2,Chelsea
+3/5/22,Wolves,0.7,2.8,Crystal Palace
+3/5/22,Norwich City,1.3,2,Brentford
+3/5/22,Liverpool,2.6,1.2,West Ham
+3/6/22,Watford,1.3,1.4,Arsenal
+3/6/22,Manchester City,3.1,0.5,Manchester Utd
+3/7/22,Tottenham,2.4,0.3,Everton
+3/10/22,Wolves,0.9,0.9,Watford
+3/10/22,Southampton,1.1,0.7,Newcastle Utd
+3/10/22,Norwich City,1.1,2.2,Chelsea
+3/10/22,Leeds United,0.2,1.3,Aston Villa
+3/12/22,Brighton,0.6,2.3,Liverpool
+3/12/22,Brentford,2,0.6,Burnley
+3/12/22,Manchester Utd,1,1.7,Tottenham
+3/13/22,Chelsea,1,0.5,Newcastle Utd
+3/13/22,Southampton,1.7,1.8,Watford
+3/13/22,West Ham,1.5,1.2,Aston Villa
+3/13/22,Everton,0.4,1,Wolves
+3/13/22,Leeds United,2.4,1.4,Norwich City
+3/13/22,Arsenal,2.8,0.5,Leicester City
+3/14/22,Crystal Palace,0.8,2.9,Manchester City
+3/16/22,Brighton,0.9,2.9,Tottenham
+3/16/22,Arsenal,0.7,1.6,Liverpool
+3/17/22,Everton,0.6,1.3,Newcastle Utd
+3/18/22,Wolves,1.1,2.2,Leeds United
+3/19/22,Aston Villa,0.5,1.5,Arsenal
+3/20/22,Leicester City,1,1.7,Brentford
+3/20/22,Tottenham,3,0.8,West Ham
+4/2/22,Liverpool,2.5,0.9,Watford
+4/2/22,Wolves,1.4,2,Aston Villa
+4/2/22,Leeds United,1.4,1.5,Southampton
+4/2/22,Chelsea,1.7,2.2,Brentford
+4/2/22,Burnley,0.1,2,Manchester City
+4/2/22,Brighton,2.9,0.4,Norwich City
+4/2/22,Manchester Utd,1,0.9,Leicester City
+4/3/22,West Ham,1.7,0.8,Everton
+4/3/22,Tottenham,3.2,0.6,Newcastle Utd
+4/4/22,Crystal Palace,1.7,1,Arsenal
+4/6/22,Burnley,2,2.8,Everton
+4/8/22,Newcastle Utd,1.7,0.3,Wolves
+4/9/22,Everton,0.5,1.1,Manchester Utd
+4/9/22,Arsenal,2,0.8,Brighton
+4/9/22,Southampton,0.5,4.4,Chelsea
+4/9/22,Watford,1.1,0.7,Leeds United
+4/9/22,Aston Villa,1.8,1.2,Tottenham
+4/10/22,Brentford,1.5,0.4,West Ham
+4/10/22,Leicester City,1.3,1.6,Crystal Palace
+4/10/22,Norwich City,2,1.9,Burnley
+4/10/22,Manchester City,1.6,1.2,Liverpool
+4/16/22,Tottenham,0.5,0.8,Brighton
+4/16/22,Manchester Utd,2.2,2,Norwich City
+4/16/22,Watford,1.8,1.8,Brentford
+4/16/22,Southampton,0.7,1.8,Arsenal
+4/17/22,Newcastle Utd,1.8,0.9,Leicester City
+4/17/22,West Ham,2.5,1.3,Burnley
+4/19/22,Liverpool,2.2,0.1,Manchester Utd
+4/20/22,Everton,2,1.2,Leicester City
+4/20/22,Chelsea,1.1,1.8,Arsenal
+4/20/22,Newcastle Utd,1.2,0.6,Crystal Palace
+4/20/22,Manchester City,1.6,0.2,Brighton
+4/21/22,Burnley,1.8,1,Southampton
+4/23/22,Arsenal,2.4,2.1,Manchester Utd
+4/23/22,Leicester City,0.3,1.2,Aston Villa
+4/23/22,Manchester City,3.9,0.4,Watford
+4/23/22,Norwich City,0.5,1.7,Newcastle Utd
+4/23/22,Brentford,1,0.8,Tottenham
+4/24/22,Brighton,1.8,1.2,Southampton
+4/24/22,Burnley,1.6,0.7,Wolves
+4/24/22,Chelsea,2.9,0.7,West Ham
+4/24/22,Liverpool,1.9,0.6,Everton
+4/25/22,Crystal Palace,2.1,0.6,Leeds United
+4/28/22,Manchester Utd,0.5,2.2,Chelsea
+4/30/22,Newcastle Utd,0.3,2.4,Liverpool
+4/30/22,Watford,1.4,2.3,Burnley
+4/30/22,Wolves,0.8,2.8,Brighton
+4/30/22,Aston Villa,2.6,0.5,Norwich City
+4/30/22,Southampton,0.7,1.6,Crystal Palace
+4/30/22,Leeds United,1.3,2.5,Manchester City
+5/1/22,Tottenham,1.5,0.5,Leicester City
+5/1/22,Everton,2,1.2,Chelsea
+5/1/22,West Ham,0.6,0.9,Arsenal
+5/2/22,Manchester Utd,2.2,0.6,Brentford
+5/7/22,Crystal Palace,2.7,0.6,Watford
+5/7/22,Brentford,2.8,1.5,Southampton
+5/7/22,Chelsea,2.4,2.1,Wolves
+5/7/22,Burnley,2,1.6,Aston Villa
+5/7/22,Brighton,2.5,1.2,Manchester Utd
+5/7/22,Liverpool,1.4,1.2,Tottenham
+5/8/22,Leicester City,1.2,1.1,Everton
+5/8/22,Norwich City,0.9,3.1,West Ham
+5/8/22,Arsenal,2.5,0.5,Leeds United
+5/8/22,Manchester City,3.3,0.8,Newcastle Utd
+5/10/22,Aston Villa,1.4,2.2,Liverpool
+5/11/22,Leeds United,0.4,1.6,Chelsea
+5/11/22,Leicester City,2.2,1.1,Norwich City
+5/11/22,Watford,0.4,1.1,Everton
+5/11/22,Wolves,0.5,2.8,Manchester City
+5/12/22,Tottenham,3,0.6,Arsenal
+5/15/22,Tottenham,2.3,0.8,Burnley
+5/15/22,Leeds United,1.9,2.4,Brighton
+5/15/22,Watford,1.7,2.4,Leicester City
+5/15/22,Wolves,1,1.3,Norwich City
+5/15/22,Aston Villa,1,1.5,Crystal Palace
+5/15/22,West Ham,1.8,2.9,Manchester City
+5/15/22,Everton,2,1.6,Brentford
+5/16/22,Newcastle Utd,1.7,0.7,Arsenal
+5/17/22,Southampton,0.1,1.5,Liverpool
+5/19/22,Everton,0.9,1.4,Crystal Palace
+5/19/22,Aston Villa,1.6,1.8,Burnley
+5/19/22,Chelsea,1.8,0.1,Leicester City
+5/22/22,Brentford,1.2,1.4,Leeds United
+5/22/22,Leicester City,3.1,1.2,Southampton
+5/22/22,Crystal Palace,0.8,0.9,Manchester Utd
+5/22/22,Arsenal,4.1,1.1,Everton
+5/22/22,Brighton,1.9,0.4,West Ham
+5/22/22,Norwich City,0.5,3.4,Tottenham
+5/22/22,Manchester City,3.7,0.3,Aston Villa
+5/22/22,Liverpool,3.1,1.4,Wolves
+5/22/22,Burnley,1.8,1.9,Newcastle Utd
+5/22/22,Chelsea,2.7,0.8,Watford
+8/5/22,Crystal Palace,1.2,1,Arsenal
+8/6/22,Fulham,1.2,1.2,Liverpool
+8/6/22,Tottenham,1.5,0.5,Southampton
+8/6/22,Newcastle Utd,1.7,0.3,Nott'ham Forest
+8/6/22,Leeds United,0.8,1.3,Wolves
+8/6/22,Bournemouth,0.6,0.7,Aston Villa
+8/6/22,Everton,0.7,1.5,Chelsea
+8/7/22,Leicester City,0.6,0.8,Brentford
+8/7/22,Manchester Utd,1.4,1.5,Brighton
+8/7/22,West Ham,0.5,2.2,Manchester City
+8/13/22,Aston Villa,2.3,1.6,Everton
+8/13/22,Manchester City,1.7,0.1,Bournemouth
+8/13/22,Southampton,1.2,1.8,Leeds United
+8/13/22,Wolves,0.9,1.5,Fulham
+8/13/22,Arsenal,2.7,0.5,Leicester City
+8/13/22,Brighton,1.5,0.2,Newcastle Utd
+8/13/22,Brentford,1.6,0.9,Manchester Utd
+8/14/22,Nott'ham Forest,1.3,2.1,West Ham
+8/14/22,Chelsea,1.6,1,Tottenham
+8/15/22,Liverpool,2,1,Crystal Palace
+8/20/22,Tottenham,1.7,0.7,Wolves
+8/20/22,Leicester City,0.3,0.9,Southampton
+8/20/22,Everton,1.5,1,Nott'ham Forest
+8/20/22,Crystal Palace,2.6,0.9,Aston Villa
+8/20/22,Fulham,2.4,1.8,Brentford
+8/20/22,Bournemouth,0.3,1.3,Arsenal
+8/21/22,Leeds United,2.1,0.9,Chelsea
+8/21/22,West Ham,0.8,1.7,Brighton
+8/21/22,Newcastle Utd,1.8,2.1,Manchester City
+8/22/22,Manchester Utd,1.8,1.3,Liverpool
+8/27/22,Southampton,1.4,1.1,Manchester Utd
+8/27/22,Manchester City,2.2,0.1,Crystal Palace
+8/27/22,Brighton,2,1.8,Leeds United
+8/27/22,Chelsea,1.8,2.5,Leicester City
+8/27/22,Brentford,2.1,1.1,Everton
+8/27/22,Liverpool,3.3,0.3,Bournemouth
+8/27/22,Arsenal,2.6,0.8,Fulham
+8/28/22,Wolves,0.7,1.7,Newcastle Utd
+8/28/22,Aston Villa,0.5,0.6,West Ham
+8/28/22,Nott'ham Forest,0.9,2.4,Tottenham
+8/30/22,Fulham,0.7,1.4,Brighton
+8/30/22,Crystal Palace,1,1.4,Brentford
+8/30/22,Southampton,1.1,1.1,Chelsea
+8/30/22,Leeds United,1,1,Everton
+8/31/22,Bournemouth,0.4,1.5,Wolves
+8/31/22,Manchester City,3.3,0.7,Nott'ham Forest
+8/31/22,Arsenal,2.4,0.4,Aston Villa
+8/31/22,West Ham,1.2,0.6,Tottenham
+8/31/22,Liverpool,1.5,0.7,Newcastle Utd
+9/1/22,Leicester City,0.7,1.5,Manchester Utd
+9/3/22,Everton,1.7,2.1,Liverpool
+9/3/22,Nott'ham Forest,1.9,0.8,Bournemouth
+9/3/22,Wolves,0.8,1.2,Southampton
+9/3/22,Newcastle Utd,2.8,1,Crystal Palace
+9/3/22,Brentford,2.3,1.7,Leeds United
+9/3/22,Tottenham,2.9,0.7,Fulham
+9/3/22,Chelsea,0.9,1.1,West Ham
+9/3/22,Aston Villa,0.3,2.1,Manchester City
+9/4/22,Brighton,2.6,1.4,Leicester City
+9/4/22,Manchester Utd,1.5,1.3,Arsenal
+9/16/22,Aston Villa,1.5,0.3,Southampton
+9/16/22,Nott'ham Forest,1.4,0.9,Fulham
+9/17/22,Wolves,0.4,1.1,Manchester City
+9/17/22,Newcastle Utd,1.9,0.7,Bournemouth
+9/17/22,Tottenham,2.2,1.8,Leicester City
+9/18/22,Brentford,0.5,1.5,Arsenal
+9/18/22,Everton,0.4,1,West Ham
+10/1/22,Arsenal,2.4,1.6,Tottenham
+10/1/22,Southampton,1.7,2,Everton
+10/1/22,Crystal Palace,0.4,1.1,Chelsea
+10/1/22,Liverpool,1.5,1.4,Brighton
+10/1/22,Fulham,0.5,3.3,Newcastle Utd
+10/1/22,Bournemouth,0.4,0.9,Brentford
+10/1/22,West Ham,0.9,0.7,Wolves
+10/2/22,Manchester City,3.2,1.7,Manchester Utd
+10/2/22,Leeds United,0.4,2.2,Aston Villa
+10/3/22,Leicester City,1.3,1.1,Nott'ham Forest
+10/8/22,Bournemouth,1.1,1,Leicester City
+10/8/22,Newcastle Utd,1.5,1.2,Brentford
+10/8/22,Manchester City,2.4,0.2,Southampton
+10/8/22,Chelsea,1.9,1.1,Wolves
+10/8/22,Brighton,0.7,0.8,Tottenham
+10/9/22,West Ham,2.4,0.7,Fulham
+10/9/22,Crystal Palace,1.1,1,Leeds United
+10/9/22,Arsenal,2.7,1.1,Liverpool
+10/9/22,Everton,0.6,1.4,Manchester Utd
+10/10/22,Nott'ham Forest,0.3,0.7,Aston Villa
+10/14/22,Brentford,1.5,1.9,Brighton
+10/15/22,Leicester City,1,0.4,Crystal Palace
+10/15/22,Fulham,2.1,1,Bournemouth
+10/15/22,Wolves,1.3,1.5,Nott'ham Forest
+10/15/22,Tottenham,2.2,0.4,Everton
+10/16/22,Southampton,0.5,1.7,West Ham
+10/16/22,Aston Villa,1.8,0.9,Chelsea
+10/16/22,Leeds United,1.8,0.5,Arsenal
+10/16/22,Manchester Utd,0.8,0.8,Newcastle Utd
+10/16/22,Liverpool,2.1,1,Manchester City
+10/18/22,Brighton,1.7,0.1,Nott'ham Forest
+10/18/22,Crystal Palace,1.2,0.8,Wolves
+10/19/22,Bournemouth,1,1,Southampton
+10/19/22,Brentford,1.3,0.9,Chelsea
+10/19/22,Liverpool,1.7,1.7,West Ham
+10/19/22,Newcastle Utd,1.5,0.2,Everton
+10/19/22,Manchester Utd,1.5,0.6,Tottenham
+10/20/22,Fulham,2.1,1.2,Aston Villa
+10/20/22,Leicester City,0.8,1.3,Leeds United
+10/22/22,Nott'ham Forest,1.9,1.6,Liverpool
+10/22/22,Everton,1.4,0.9,Crystal Palace
+10/22/22,Manchester City,1.6,0.5,Brighton
+10/22/22,Chelsea,1.1,0.8,Manchester Utd
+10/23/22,Aston Villa,2.8,0.9,Brentford
+10/23/22,Wolves,2.1,0.9,Leicester City
+10/23/22,Leeds United,1.6,1.8,Fulham
+10/23/22,Southampton,0.7,1,Arsenal
+10/23/22,Tottenham,1.6,1.2,Newcastle Utd
+10/24/22,West Ham,1.9,0.4,Bournemouth
+10/29/22,Leicester City,0.7,1,Manchester City
+10/29/22,Brentford,1.4,0.6,Wolves
+10/29/22,Crystal Palace,0.9,1.3,Southampton
+10/29/22,Newcastle Utd,3.4,0.4,Aston Villa
+10/29/22,Brighton,2.4,1.4,Chelsea
+10/29/22,Bournemouth,0.5,2,Tottenham
+10/29/22,Fulham,1.9,0.9,Everton
+10/29/22,Liverpool,1.7,1.8,Leeds United
+10/30/22,Arsenal,2.3,0.4,Nott'ham Forest
+10/30/22,Manchester Utd,1.2,1.1,West Ham
+11/5/22,Nott'ham Forest,1.5,1.5,Brentford
+11/5/22,Leeds United,2.2,1.5,Bournemouth
+11/5/22,Manchester City,2.1,1,Fulham
+11/5/22,Wolves,1.2,1.5,Brighton
+11/5/22,Everton,1.2,2.3,Leicester City
+11/6/22,Chelsea,0.3,2.1,Arsenal
+11/6/22,West Ham,0.3,1,Crystal Palace
+11/6/22,Southampton,1.7,0.9,Newcastle Utd
+11/6/22,Aston Villa,0.6,0.5,Manchester Utd
+11/6/22,Tottenham,1.2,1.2,Liverpool
+11/12/22,Manchester City,1.6,1.3,Brentford
+11/12/22,Tottenham,1.8,1.1,Leeds United
+11/12/22,Liverpool,1.9,1.1,Southampton
+11/12/22,Bournemouth,2.4,0.8,Everton
+11/12/22,West Ham,1.4,1.8,Leicester City
+11/12/22,Nott'ham Forest,1.1,1.2,Crystal Palace
+11/12/22,Newcastle Utd,1,0.3,Chelsea
+11/12/22,Wolves,0.7,2.1,Arsenal
+11/13/22,Brighton,0.6,1.5,Aston Villa
+11/13/22,Fulham,1.4,2.5,Manchester Utd
+12/26/22,Brentford,2,1.1,Tottenham
+12/26/22,Southampton,1.9,0.6,Brighton
+12/26/22,Leicester City,0.5,1.9,Newcastle Utd
+12/26/22,Crystal Palace,0.4,2.5,Fulham
+12/26/22,Everton,1.7,0.8,Wolves
+12/26/22,Aston Villa,1.4,2.7,Liverpool
+12/26/22,Arsenal,2.1,1,West Ham
+12/27/22,Chelsea,1.8,0.5,Bournemouth
+12/27/22,Manchester Utd,2.4,0.7,Nott'ham Forest
+12/28/22,Leeds United,0.6,4.3,Manchester City
+12/30/22,West Ham,1.3,1.6,Brentford
+12/30/22,Liverpool,2.2,1,Leicester City
+12/31/22,Wolves,0.7,2,Manchester Utd
+12/31/22,Newcastle Utd,2.2,0.4,Leeds United
+12/31/22,Fulham,1.5,0.8,Southampton
+12/31/22,Manchester City,1.7,0.1,Everton
+12/31/22,Bournemouth,0.6,1.6,Crystal Palace
+12/31/22,Brighton,1.2,2.9,Arsenal
+1/2/23,Brentford,2.1,2.1,Liverpool
+1/14/23,Brighton,1.9,1,Liverpool
+1/21/23,Liverpool,1.4,1.6,Chelsea
+2/4/23,Wolves,2,1.8,Liverpool
+2/13/23,Liverpool,2.2,0.3,Everton
+2/18/23,Newcastle Utd,2,2.4,Liverpool
+2/25/23,Crystal Palace,0.9,0.6,Liverpool
+3/1/23,Liverpool,2.5,0.8,Wolves
+3/5/23,Liverpool,2.8,0.8,Manchester Utd
